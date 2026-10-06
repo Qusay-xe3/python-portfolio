@@ -1,3 +1,7 @@
+#scan_report.py
+#name: Qusay Jobran
+
+
 # طباعة عنوان التقرير وسطر الرموز
 print     ("security scan report")
 print ("****************************")
