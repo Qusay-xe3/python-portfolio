@@ -10,6 +10,6 @@ print(f"Session length: {minutes} minutes and {seconds} seconds")
 
 
 # Test:
-# input 905: Session length: 15 minutes and 5 seconds
-# input 60: Session length: 1 minutes and 0 seconds
-# input 59: Session length: 0 minutes and 59 seconds
+# test 905: Session length: 15 minutes and 5 seconds
+# test 60: Session length: 1 minutes and 0 seconds
+# test 59: Session length: 0 minutes and 59 seconds
