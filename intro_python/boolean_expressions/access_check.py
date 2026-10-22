@@ -3,13 +3,11 @@
 MAX_FAILED = 5
 
 role = input("role: ")
-mfa_passed = input("mfa passed (yes/no): ")
+mfa_passed = input("MFA passed (yes/no): ")
 failed_attempts = int(input("failed attempts: "))
 
 mfa_ok = mfa_passed == "yes"
-privileged_role = role == "admin" or role == "root"
-can_log_in = mfa_passed == "yes" and failed_attempts < MAX_FAILED
+is_privileged = role == "admin" or role == "root"
+can_log_in = mfa_ok and failed_attempts < MAX_FAILED
 
-print (f"MFA ok: {mfa_ok}")
-print (f"Privileged role: {privileged_role}")
-print (f"Can log in: {can_log_in}")
+print(f"MFA OK: {mfa_ok}\nPrivileged role: {is_privileged}\nCan log in: {can_log_in}")
