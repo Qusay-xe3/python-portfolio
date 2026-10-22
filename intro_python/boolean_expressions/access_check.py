@@ -1,5 +1,5 @@
-#access_check.py
-
+# access_check.py
+# This file takes user inputs and checks their permissions and security status to determine login eligibility.
 MAX_FAILED = 5
 
 role = input("role: ")

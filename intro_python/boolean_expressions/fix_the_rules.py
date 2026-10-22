@@ -1,5 +1,4 @@
 # fix_the_rules.py
-
 # This program checks a connection against three rules.
 
 role = input("Role: ")

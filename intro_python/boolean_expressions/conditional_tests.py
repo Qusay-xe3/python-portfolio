@@ -1,5 +1,5 @@
-#conditional_tests.py
-
+# conditional_tests.py
+# This file tests and displays the results of logical operations and conditional expressions compared to our predictions.
 user = "analyst"
 role = "viewer"
 failed = 3
