@@ -13,12 +13,9 @@ if len(password) < MIN_LENGTH:
 
 if len(password) >= MIN_LENGTH:
     strength = "acceptable"
-#SemanticError:
-    print (f"Length: {len(password)} ({strength})")
 elif len(password) >= 16:
     strength = "long"
-#SemanticError:
-    print (f"Length: {len(password)} ({strength})")
 else:
     strength = "short"
-    print (f"Length: {len(password)} ({strength})")
+#SemanticError
+print (f"Length: {len(password)} ({strength})")
